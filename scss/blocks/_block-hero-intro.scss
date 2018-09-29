@@ -1,0 +1,43 @@
+.hero-intro {
+  background: url('https://picsum.photos/1920/920') no-repeat center;
+  min-height: 680px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  @include respond-to(992) {
+    text-align: left;
+  }
+  &__body {
+    max-width: 633px;
+    margin: 0 auto;
+    background: rgba(0,0,0, .7);
+    padding: $space-1 $space-2 $space-3;
+    @include respond-to(992) {
+      max-width: 100%;
+      margin: 0;
+      padding: $space-3;
+    }
+  }
+  &__heading {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    color: $white;
+    font-family: $dosis;
+    font-size: responsive 32px 45px;
+    font-range: 420px 1280px;
+    padding-bottom: $space-2;
+  }
+  &__text {
+    color: $white;
+    font-family: $roboto;
+    font-size: 16px;
+    padding-bottom: $space-2;
+    max-width: 680px;
+  }
+  &__btn {
+    border-radius: 0;
+    font-size: 16px;
+    &:hover {
+      color: $black;
+    }
+   }
+}
