@@ -27,23 +27,6 @@ $dosis: 'Dosis-Bold';
 $roboto: 'Roboto';
 $roboto-l: 'Roboto Light';
 
-@font-face {
-    font-family:"Dosis-Bold";
-    src:url("../fonts/Dosis-Bold.woff2") format("woff2"),url("../fonts/Dosis-Bold.woff") format("woff"),url("../fonts/Dosis-Bold.otf") format("opentype");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"Roboto";
-    src:url("../fonts/Roboto-Regular.woff2") format("woff2"),url("../fonts/Roboto-Regular.woff") format("woff"),url("../fonts/Roboto-Regular.otf") format("opentype");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"Roboto Light";
-    src:url("../fonts/Roboto-Light.woff2") format("woff2"),url("../fonts/Roboto-Light.woff") format("woff"),url("../fonts/Roboto-Light.otf") format("opentype");
-    font-style:normal;font-weight:400;
-}
 
 /**
 * -----------------------------------------------------------------------
