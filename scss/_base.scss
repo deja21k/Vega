@@ -41,12 +41,8 @@ p{
   margin: 0;
   color: $black;
   font-family: $roboto-l;
-  font-range: 320px 1920px;
-  font-size: responsive 16px 18px;
+  font-size: 16px;
   line-height: 1.8;
-  @include respond-to(992){
-    font-size: 20px;
-  }
 }
 
 svg {
