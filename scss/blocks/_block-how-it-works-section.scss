@@ -1,6 +1,11 @@
 .how-it-works {
   text-align: center;
   padding: $space-4;
+  h2 {
+    color: $orange;
+    font-size: 50px;
+    padding:$space-3;
+  }
 
   &__container {
     padding: 0;
@@ -11,6 +16,16 @@
     flex-direction:column;
     @include respond-to(992){
       flex-direction:row;
+    }
+  }
+
+  &__btn {
+    background-color: $orange;
+    border: none;
+    margin-top: $space-4;
+    &:hover {
+      background-color: $silver;
+      border: none;
     }
   }
 
