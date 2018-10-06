@@ -3,7 +3,8 @@
   padding: $space-4;
   h2 {
     color: $orange;
-    font-size: 50px;
+    font-size:responsive 50px 58px;
+    // font-range: 320px 1920px;
     padding:$space-3;
   }
 

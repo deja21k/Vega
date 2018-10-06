@@ -1,0 +1,17 @@
+.our-doctors{
+  text-align: center;
+  padding: $space-4;
+  background-image: url(../../images/our-doctors-background.png);
+  &__img-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @include respond-to (992){
+      flex-direction: row;
+    }
+    img {
+      padding: 20px 50px;
+    }
+  }
+
+}
