@@ -1,7 +1,17 @@
 .our-doctors{
   text-align: center;
-  padding: $space-4;
+  padding: $space-3;
   background-image: url(../../images/our-doctors-background.png);
+  h2 {
+    color: $white;
+    padding: $space-1 0 $space-3;
+    font-size:responsive 50px 58px;
+
+  }
+  p {
+    color: $white;
+    font-weight: bold;
+  }
   &__img-body {
     display: flex;
     justify-content: center;
@@ -10,7 +20,7 @@
       flex-direction: row;
     }
     img {
-      padding: 20px 50px;
+      padding: 35px 50px 16px;
     }
   }
 
