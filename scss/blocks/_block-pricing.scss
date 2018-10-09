@@ -1,3 +1,16 @@
 .pricing{
+  background: $silver;
+  justify-content: center;
   padding: 3rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction:column;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  @include respond-to(992){
+    flex-direction:row;
+    max-width: none;
+  }
 }
