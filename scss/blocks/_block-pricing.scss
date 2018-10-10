@@ -1,16 +1,24 @@
 .pricing{
-  background: $silver;
+  background: $light-gey;
   justify-content: center;
-  padding: 3rem;
+  padding: 7rem 0 4rem;
   margin: 0;
   list-style: none;
   display: flex;
   flex-direction:column;
-  max-width: 500px;
-  text-align: center;
   margin: auto;
+  align-items: center;
+  position: relative;
   @include respond-to(992){
     flex-direction:row;
     max-width: none;
+  }
+  h2 {
+    position: absolute;
+    top: 20px;
+    color: $grey;
+    font-size:responsive 50px 58px;
+    // font-range: 320px 1920px;
+    padding: $space-1 0;
   }
 }

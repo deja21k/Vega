@@ -1,7 +1,9 @@
 .pricing-box{
   background: $white;
-  padding: 30px; 
+  padding: 30px;
   margin: $space-2;
+  text-align: center;
+  max-width: 400px;
   h3 {
     padding: $space-2;
   }
@@ -11,6 +13,17 @@
   }
   span {
     font-size: 36px;
+  }
+  &--blue {
+
+    h3 {
+      color: $blue;
+    }
+  }
+  &--green {
+    h3 {
+      color: $green;
+    }
   }
   &__tag {
     text-align: center;
@@ -24,16 +37,30 @@
     justify-content: center;
     margin-right: 10px;
     border: 5px solid $white;
-    box-shadow: 0 0 0 5px $blue;
+    box-shadow: 0 0 0 5px;
     margin: auto;
+    &--green {
+      background: $green;
+      box-shadow: 0 0 0 5px $green;
+    }
+    &--blue {
+      background: $blue;
+      box-shadow: 0 0 0 5px $blue;
+    }
   }
-  &__btn-blue {
-    background-color: $blue;
+  &__btn {
+    // background-color: $blue;
     border: none;
-    margin-top: $space-4;
-    &:hover {
-      background-color: $silver;
-      border: none;
+    margin-top: $space-3;
+    // &:hover {
+    //   background-color: $silver;
+    //   border: none;
+    // }
+    &--blue {
+      background-color: $blue;
+    }
+    &--green {
+      background-color: $green;
     }
   }
 }
