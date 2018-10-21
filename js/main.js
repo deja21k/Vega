@@ -47,6 +47,10 @@ $(function(){
         nav_item_4.removeClass('slide-in-nav-item-delay-3').addClass('slide-in-nav-item-delay-3-reverse');
         nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
       }
+
+      $('.navigation a').on('click', function() {
+        $('.overlay-navigation').removeClass('overlay-active overlay-slide-down');
+      });
     })
   }
 
