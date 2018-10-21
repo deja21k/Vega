@@ -33,8 +33,22 @@
   &__btn {
     border-radius: 0;
     font-size: 16px;
-    &:hover {
+    transition: all .3s ease-in-out;
+    &:link,
+    &:visited,
+    &:hover ,
+    &:active{
       color: $black;
     }
-   }
+    &:focus {
+      color: $black;
+    }
+  }
+  // Bootstrap overwrite for active and focus
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: $black;
+    border-color: $black;
+    box-shadow: none;
+  }
 }
