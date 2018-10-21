@@ -1,6 +1,4 @@
 .hero-intro {
-  background: url('https://picsum.photos/1920/920') no-repeat center;
-  min-height: 680px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -8,7 +6,6 @@
     text-align: left;
   }
   &__body {
-    max-width: 633px;
     margin: 0 auto;
     background: rgba(0,0,0, .7);
     padding: $space-1 $space-2 $space-3;
