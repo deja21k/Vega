@@ -25,6 +25,9 @@ nav {
     background: $orange;
     border-radius: 10%;
   }
+  @include respond-to(768) {
+    display: none;
+  }
 }
   .logo {
     width: auto;
@@ -38,5 +41,8 @@ nav {
       color: $white;
      }
    }
+  }
+  .icon {
+    display: none;
   }
 }
