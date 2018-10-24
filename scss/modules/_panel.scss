@@ -1,5 +1,10 @@
 .panel{
   padding-top: $space-2;
+  span {
+    color: $blue;
+    font-size: responsive 30px 40px;
+    font-range: 420px 1280;
+  }
   &__img {
     padding: 25px;
   }
@@ -7,6 +12,7 @@
     padding: 0 $space-2 ;
     p {
       color: $silver;
+      padding: 0 10px;
     }
   }
   &__heading {
