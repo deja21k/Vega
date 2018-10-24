@@ -53,6 +53,9 @@ hr.reset{
     border-top: solid 10px $black;
   }
 }
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $dosis;
+}
 .h1{
   font-range: 320px 1920px;
   font-size: responsive 28px 80px;
