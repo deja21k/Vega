@@ -1,11 +1,17 @@
 .pricing-box{
   background: $white;
-  padding: 30px;
+  padding: 30px 30px 100px;
   margin: $space-2;
   text-align: center;
   max-width: 400px;
-  min-height: 450px;
+  position: relative;
 
+  .btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: $space-2;
+  }
   h3 {
     padding: $space-2;
   }
@@ -25,6 +31,9 @@
     h3 {
       color: $green;
     }
+  }
+  &__wrapper {
+    display: flex;
   }
   &__tag {
     text-align: center;
