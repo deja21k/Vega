@@ -2,7 +2,7 @@
   text-align: center;
   padding: $space-3;
   h2 {
-    color: $orange;
+    color:$silver;
     font-size:responsive 50px 58px;
     // font-range: 320px 1920px;
     padding: $space-1 0;
@@ -24,7 +24,7 @@
   }
 
   &__btn {
-    background-color: $orange;
+    background-color:$red;
     border: none;
     margin-top: $space-4;
     &:hover {

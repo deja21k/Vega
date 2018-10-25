@@ -1,7 +1,7 @@
 .panel{
   padding-top: $space-2;
   span {
-    color: $blue;
+    color:$red;
     font-size: responsive 30px 40px;
     font-range: 420px 1280;
   }
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     h4 {
-      color: $blue;
+      color: $red;
     }
   }
   &__number {
