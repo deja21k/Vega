@@ -23,21 +23,5 @@
       color: $red;
     }
   }
-  &__number {
-    width: 40px;
-    height: 40px;
-    background:$blue;
-    color: $white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    display: none;
-    @include respond-to (992)
-    {
-      display:flex;
-    }
-  }
 
 }
